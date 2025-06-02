@@ -17,11 +17,5 @@ destination.addEventListener('load', () => {                         // au charg
     button2.addEventListener('click', () => {                        // récupération du bouton dans la fenêtre destination
         destination.close();                                         // fermeture de la fenêtre destination
     });
-  });
-})
-
-const button3 = document.getElementById('bouton3');      // récupération du bouton
-
-button.addeventListener('click', () => {                 // ajout d'un écouteur d'événement pour le clic sur le bouton
-    alert("Message d'alerte");                    // ou alert("Message d'alerte")  affichage d'un message d'alerte
+    });
 })
