@@ -30,6 +30,6 @@ button3.addEventListener('click', () => {
 const button4 = document.getElementById("bouton4");
 
 button4.addEventListener('click', () => {
-    let mot = window.prompt("Quel mot afficher ?", "mot de votre choix");
+    let mot = window.prompt("Quel mot afficher ?", "mot de votre choix");
     window.alert(mot);
 })
