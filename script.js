@@ -1,3 +1,6 @@
+// Ce script gère l'ouverture et la fermeture d'une fenêtre, ainsi que l'affichage de messages
+// et de boîtes de dialogue dans le navigateur.
+
 
 document.addEventListener('DOMContentLoaded', () => { // s'assure que le DOM est complètement chargé avant 
                                                       // d'exécuter le script
@@ -30,7 +33,7 @@ button3.addEventListener('click', () => {
 
 
 button4.addEventListener('click', () => {
-    const mot = prompt("Quel mot afficher ?", "mot de votre choix");
+    const mot = prompt("Quel est votre prénom ?", "mot de votre choix");
     if (mot !==null) {
         alert(mot);
         }
