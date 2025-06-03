@@ -2,15 +2,15 @@
 // et de boîtes de dialogue dans le navigateur.
 
 
-document.addEventListener('DOMContentLoaded', () => { // s'assure que le DOM est complètement chargé avant 
-                                                      // d'exécuter le script
-    const button = document.getElementById('bouton');                 // récupération du bouton
+document.addEventListener('DOMContentLoaded', () => {                   // s'assure que le DOM est complètement chargé avant 
+                                                                        // d'exécuter le script
+    const button = document.getElementById('bouton');                   // récupération du bouton
     const button3 = document.getElementById('bouton3');
     const button4 = document.getElementById("bouton4");
 
 
 // le bouton ouvre une nouvelle fenêtre avec la page destination.html
-button.addEventListener('click', () => {                    // ajout d'un écouteur d'événement pour le clic sur le bouton
+button.addEventListener('click', () => {                       // ajout d'un écouteur d'événement pour le clic sur le bouton
     const destination = window.open('./destination.html', 'destination', // ouverture d'une nouvelle fenêtre
        'width=400, height=400, left=200, top=200');                      // avec les dimensions et la position spécifiées
 
