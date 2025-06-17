@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {                   // s'ass
 
 
 // le bouton ouvre une nouvelle fenêtre avec la page destination.html
+//const left = window.screenX + 200;  //  position horizontale de la nouvelle fenêtre
+//const top = window.screenY + 200;   //  position verticale de la nouvelle fenêtre
+
 button.addEventListener('click', () => {                       // ajout d'un écouteur d'événement pour le clic sur le bouton
     const destination = window.open('./destination.html', 'destination', // ouverture d'une nouvelle fenêtre
        'width=400, height=400, left=200, top=200');                      // avec les dimensions et la position spécifiées
